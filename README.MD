@@ -1,6 +1,6 @@
 BADGES
 ### Code Factor : [![CodeFactor](https://www.codefactor.io/repository/github/allanbiville/lmds-s/badge)](https://www.codefactor.io/repository/github/allanbiville/lmds-s)
-###Codacy : [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2b4df65b68046ceae11d550aaf9320f)](https://www.codacy.com/gh/AllanBiville/LMDS-S/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AllanBiville/LMDS-S&amp;utm_campaign=Badge_Grade)
+### Codacy : [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2b4df65b68046ceae11d550aaf9320f)](https://www.codacy.com/gh/AllanBiville/LMDS-S/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AllanBiville/LMDS-S&amp;utm_campaign=Badge_Grade)
 
 ### SYMFONY     VERSION 5.4.2 ###
 ### COMPOSER    VERSION 2.1.8 ###
