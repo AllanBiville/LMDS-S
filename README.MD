@@ -7,6 +7,8 @@
 ## Description
 La Maison Du Smartphone is an online website software, a PHP web application developed using the Symfony framework (version 5.4.2).
 
+Its purpose is to show an image of the store, informing customers of certain new products, to offer a simple and practical quotation system, to contact the store, and to see the products for sale by the store.
+
 Thanks to [Symfony](https://symfony.com/)
 
 ## Installation
