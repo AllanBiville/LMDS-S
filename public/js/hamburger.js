@@ -1,4 +1,4 @@
-        function OpenWhenClick() {
+function OpenWhenClick() {
     var x = document.getElementById("nav-id");
     if (x.className === "nav-class") {
       x.className += " responsive";
