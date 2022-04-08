@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 850px) {
   .contact h1:first-child {
-      font-size: 35px !important;
+      font-size: 35px;
   }
 }
 
@@ -23,7 +23,7 @@
     outline: 0;
     border-radius: 4px;
     font-size: 25px;
-    padding: 15px;
+    padding:  15px;
     width: 90%;
     background-color: #e8eeef;
     color: #8a97a0;
@@ -84,7 +84,7 @@
       padding:40px 0;
       box-shadow: rgb(0, 0, 0, 0.19) 0 10px 20px, rgb(0, 0, 0, 0.23) 0 6px 6px;
       -webkit-box-shadow: rgb(0, 0, 0, 0.19) 0 10px 20px, rgb(0, 0, 0, 0.23) 0 6px 6px;
-      -moz-box-shadow: rgb(0, 0, 0, 0.19) 0 10px 20px, rgb(0, 0, 0, 0.23) 0 6px 6px;
+      -moz-box-shadow:  rgb(0, 0, 0, 0.19) 0 10px 20px,rgb(0, 0, 0, 0.23) 0 6px 6px;
   }
   .numero-adresse .items a{
     text-decoration:none;

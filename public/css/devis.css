@@ -61,7 +61,7 @@ display:none;
   height: 0.5em;
   top: 1.25em;
   left: 50%;
-  margin-left: 1.5em\9;
+  margin-left: 1.5em;
   z-index: -1;
 }
 .progress > li:last-child:after {
@@ -441,7 +441,7 @@ margin-top:50px;
 }
 @media screen and (max-width: 850px) {
   .devis-h1-title {
-    font-size: 35px !important;
+    font-size: 35px;
 }
 }
 
