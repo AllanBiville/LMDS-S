@@ -10,22 +10,22 @@ Codacy : [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2b4df65b68
 
 ![La Maison Du Smartphone](https://raw.githubusercontent.com/AllanBiville/LMDS-S/main/public/images/banniere.jpg)
 
-## Description
+# Description
 La Maison Du Smartphone is an online website software, a PHP web application developed using the Symfony framework (version 5.4.2).
 
 Its purpose is to show an image of the store, informing customers of certain new products, to offer a simple and practical quotation system, to contact the store, and to see the products for sale by the store.
 
 Thanks to [Symfony](https://symfony.com/)
 
-## Installation
+# Installation
 
-### 1) Get all source files
+## 1) Get all source files
 
 - git clone https://github.com/AllanBiville/LMDS-S.git
 - composer install
 
 
-### 2) Create database
+## 2) Create database
 
 Copy **.env** file to **.env.local**
 
