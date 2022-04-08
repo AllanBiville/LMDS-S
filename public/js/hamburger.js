@@ -8,4 +8,4 @@ function OpenWhenClick() {
       document.getElementById('nav-icon').className = "fa fa-bars";
     }
   }
-
+  OpenWhenClick();
