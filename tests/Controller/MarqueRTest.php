@@ -6,7 +6,7 @@ use Symfony\Component\BrowserKit\Cookie;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
 
-class MarqueTest extends WebTestCase
+class MarqueRTest extends WebTestCase
 {
     public function loginSuperadmin($username = 'superadmin', $role = 'ROLE_SUPER_ADMIN')
     {
