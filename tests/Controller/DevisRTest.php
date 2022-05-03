@@ -4,7 +4,7 @@ namespace App\Tests;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class DevisTest extends WebTestCase
+class DevisRTest extends WebTestCase
 {
     public function testDevisRoute(): void
     {
