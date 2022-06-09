@@ -1,0 +1,14 @@
+{% extends 'magasin.html.twig' %}
+
+
+{% block body %}
+
+			{% for devi in devis %}
+					<h1>{{ devi.id }}</h1><br/>
+			{% else %}
+            <h1>Aucun devis correspondant</h1>
+			{% endfor %}
+		</tbody>
+	</table>
+	
+{% endblock %}

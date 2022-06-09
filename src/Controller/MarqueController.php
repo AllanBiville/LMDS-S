@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Marque;
 use App\Form\MarqueType;
+use App\Repository\DevisRepository;
 use App\Repository\MarqueRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -25,7 +26,21 @@ class MarqueController extends AbstractController
             'marques' => $marqueRepository->findAll(),
         ]);
     }
+    /**
+     * @Route("/devisWithMarque", name="devis_with_marque", methods={"GET"})
+     */
+    public function devisWithMarque(DevisRepository $devisRepository): Response
+    {
+         $marque = $_GET['marque'];
 
+         $tableauCounts = array();
+         foreach ($devisRepository->getDevisWithMarque($marque) as $tu) {
+             $tableauCounts[] = $tu[0];
+         }
+        return $this->render('marque/devis_with_marque.html.twig', [
+            'devis' => $tableauCounts,
+        ]);
+    }
     /**
      * @Route("/new", name="marque_new", methods={"GET", "POST"})
      */

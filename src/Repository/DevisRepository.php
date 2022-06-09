@@ -53,6 +53,16 @@ class DevisRepository extends ServiceEntityRepository
         ;
     }
 
+    public function getDevisWithMarque($marque)
+    {
+        return $this->createQueryBuilder('m')
+        ->andWhere('m.marque = :val')
+        ->setParameter('val', $marque)
+        ->getQuery()
+        ->getResult()
+    ;
+    }
+
     // /**
     //  * @return Devis[] Returns an array of Devis objects
     //  */

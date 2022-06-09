@@ -20,7 +20,8 @@
                         <a class='btn btn-warning' href="{{ path('marque_edit', {'id': marque.id}) }}"><i class='fas fa-pen'></i></a>
 						{{ include('marque/_delete_form.html.twig') }}
 					</td>
-					<td>{{ marque.NomMarque }}</td>
+					<td>{{ marque.NomMarque }} 
+					<a href="/magasin/marque/devisWithMarque?marque={{marque.nomMarque}}">Voir devis</a></td>
 				</tr>
 			{% else %}
 				<tr>
